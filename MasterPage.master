@@ -31,6 +31,7 @@
                         <li class="layui-nav-item"><a href="index.aspx">首页</a></li>
                         <li class="layui-nav-item"><a href="grjs.aspx">个人介绍</a></li>
                         <li class="layui-nav-item"><a href="album.aspx">相册</a></li>
+                        <li class="layui-nav-item"><a href="myvideo.aspx">视频</a></li>
                         <li class="layui-nav-item"><a href="message.aspx">留言板</a></li>
                         <li class="layui-nav-item"><a href="Login.aspx">登录</a></li>
                         <li class="layui-nav-item"><a href="Register.aspx">注册</a></li>
@@ -40,7 +41,7 @@
             </div>
         </div>
         <!-- 内容部分 -->
-        <div>
+        <div style="background-image: linear-gradient(#4bc3e52b, #e5a89126);">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
